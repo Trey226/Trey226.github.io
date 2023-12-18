@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="mediator.js"></script>
+</head>
+<body>
+    <header>
+        <h1>About Our Facility</h1>
+        <nav>
+            <button id="home">Home</button>
+        </nav>
+    </header>
+    <main>
+        <p>This is the about us page content...</p>
+    </main>
+    <script>
+        document.getElementById('home').addEventListener('click', function() {
+            Mediator.loadPage('index.html');
+        });
+    </script>
+</body>
+</html>
