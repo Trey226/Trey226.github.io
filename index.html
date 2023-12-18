@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Residential Care Facility</title>
     <link rel="stylesheet" href="style.css">
-    <script src="mediator.js"></script>
+    <script src="mediator.js" defer></script>
 </head>
 <body>
     <header>
@@ -16,12 +15,22 @@
         </nav>
     </header>
     <main>
-        <p>This is the homepage content...</p>
+        <section class="intro">
+            <h2>A Place You Can Call Home</h2>
+            <p>Welcome to our Residential Care Facility, where we provide top-notch care in a warm, home-like environment.</p>
+            <p>Our commitment is to enhance the quality of life for each of our residents through personalized attention and care.</p>
+        </section>
+        
+        <section class="slideshow-container">
+            <!-- Slides will be dynamically inserted here -->
+        </section>
+
+        <section class="footer">
+            <p>Contact Us: (123) 456-7890 | Email: info@ourfacility.com</p>
+            <p>Address: 123 Care Lane, Wellness City, LC 12345</p>
+            <p>&copy; 2023 Residential Care Facility. All rights reserved.</p>
+        </section>
     </main>
-    <script>
-        document.getElementById('aboutUs').addEventListener('click', function() {
-            Mediator.loadPage('aboutus.html');
-        });
-    </script>
 </body>
 </html>
+
